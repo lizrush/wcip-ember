@@ -1,1 +1,26 @@
-this is the mvp map
+<div class="row">
+  <div class="col-sm-8 col-lg-8">
+
+    {{ partial 'map/search' }}
+
+<!-- stuff for map overlays -->
+    <div id="mapwrapper">
+      <div id="loading">
+        loading gif
+        <div id="current"></div>
+      </div>
+    </div>
+<!-- end stuff for map overlays -->
+
+<!-- googlemap component -->
+    {{ google-map latitude='47.6088409' longitude='-122.3344108' }}
+<!-- end googlemap component -->
+
+    <a class="btn-sm btn-primary" id="errorOK" onclick="hideElement('errorOK'); removeOverlay();">Ok</a>
+  </div>
+
+  <div class="col-sm-4 col-lg-4">
+    {{ partial 'map/legend' }}
+  </div>
+
+</div>
