@@ -1,4 +1,13 @@
+body {
+  font-family: AvenirNext-UltraLight;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .map-canvas {
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 400px;
 }

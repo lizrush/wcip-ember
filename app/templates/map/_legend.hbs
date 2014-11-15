@@ -1,43 +1,43 @@
 <table class="table-condensed" id="legend">
-          <tr>
-            <td>image</td>
-            <td>Temporary No Parking <span rel="tooltip" title="Parking is not allowed during the times   and dates posted on the temporary “No Parking” signs."> tooltip </span  ></td>
-          </tr>
-          <tr>
-           <td>image</td>
-            <td>Paid Parking <span rel="tooltip" title="Paid parking is generally in effect 8 a.m. to 6   p.m., Monday through Saturday. Seven areas have extended parking hours until 8 p.m. These   are the Commercial Core, Belltown, International District, Pike-Pine, Capitol Hill, Uptown &   the U-District. Please read signs carefully."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>Restricted Parking Zone <span rel="tooltip" title="Vehicles with RPZ permits, issued by   the City of Seattle, can park anytime in these spaces for up to 72 hours. Vehicles without  permits are limited to the time posted."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>Time Limited Parking <span rel="tooltip" title="Parking is allowed for up to the  maximum hours posted. Vehicles must move off the block (i.e. around the corner) when time  expires."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>Carpool Parking <span rel="tooltip" title="Do not park in designated carpool parking  zones during the posted hours, unless your vehicle has a Carpool Parking Permit issued by  the City of Seattle."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>No Parking Allowed <span rel="tooltip" title="Parking is not allowed in these zones."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>Unrestricted Parking <span rel="tooltip" title="No permit or payment is required in   these zones. Do not park a vehicle on the same block of any city street longer than 72  hours."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>AM Restrictions <span rel="tooltip" title="Parking is restricted in the morning. Do not park during the posted times. Hours vary, so read signs closely."> tooltip </span></td>
-
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>AM/PM Restrictions <span rel="tooltip" title="Parking is restricted in the morning &  afternoon. Do not park during the posted times. Hours vary, so read signs closely."> tooltip </span></td>
-          </tr>
-          <tr>
-            <td>image</td>
-            <td>PM Restrictions <span rel="tooltip" title="Parking is restricted in the afternoon &   evening. Do not park during the posted times. Hours vary, so read signs closely."> tooltip </span></td>
-          </tr>
-        </table>
+  <tr>
+    <td><img src="/assets/images/legend/temp-no-parking.png"></td>
+    <td>Temporary No Parking <img rel="tooltip" {{bs-bind-tooltip tempNoParking}} src="/assets/images/legend/tooltip.png">
+    </td>
+  </tr>
+  <tr>
+   <td><img src="/assets/images/legend/paid-parking.png"></td>
+    <td>Paid Parking <img rel="tooltip" {{bs-bind-tooltip paidParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/restricted-zone.png"></td>
+    <td>Restricted Parking Zone <img rel="tooltip" {{bs-bind-tooltip restrictedParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/time-limit.png"></td>
+    <td>Time Limited Parking <img rel="tooltip" {{bs-bind-tooltip timeLimitedParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/carpool-parking.png"></td>
+    <td>Carpool Parking <img rel="tooltip" {{bs-bind-tooltip carpoolParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/no-parking.png"></td>
+    <td>No Parking Allowed <img rel="tooltip" {{bs-bind-tooltip noParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/unrestricted.png"></td>
+    <td>Unrestricted Parking <img rel="tooltip" {{bs-bind-tooltip unrestrictedParking}} src="/assets/images/legend/tooltip.png"></td>
+    </tr>
+  <tr>
+    <td><img src="/assets/images/legend/am-restrictions.png"></td>
+    <td>AM Restrictions <img rel="tooltip" {{bs-bind-tooltip amRestrictedParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/am-pm-restrictions.png"></td>
+    <td>AM/PM Restrictions <img rel="tooltip" {{bs-bind-tooltip ampmRestrictedParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+  <tr>
+    <td><img src="/assets/images/legend/pm-restrictions.png"></td>
+    <td>PM Restrictions <img rel="tooltip" {{bs-bind-tooltip pmRestrictedParking}} src="/assets/images/legend/tooltip.png"></td>
+  </tr>
+</table>
