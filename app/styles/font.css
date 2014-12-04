@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Avenir-Next";
+  src: url("Avenir.woff") format('woff');
+}
+/*
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/awesome-font-bold.woff") format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/awesome-font-boldoblique.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("fonts/awesome-font-oblique.woff") format('woff');
+  font-style: italic;
+}
+*/

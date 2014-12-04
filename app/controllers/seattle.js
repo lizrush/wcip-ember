@@ -1,6 +1,16 @@
 import Ember from 'ember';
+// import GeoLocationMixin from 'ember-cli-geolocation/mixins/geolocation-mixin';
 
 var SeattleController = Ember.Controller.extend({
+// // Init method for example
+//   init: function() {
+//     // Super calling
+//     this._super();
+
+//     var geolocation = this.get('geolocation');
+
+//     console.log(geolocation.getGeoposition());
+//   }
 
   tempNoParking: Ember.Object.create({
     content: "Parking is not allowed during the times and dates posted on the temporary “No Parking” signs.",
@@ -51,6 +61,7 @@ var SeattleController = Ember.Controller.extend({
     content: "Parking is restricted in the afternoon & evening. Do not park during the posted times. Hours vary, so read signs closely." ,
     placement: "right"
   })
+
 });
 
 export default SeattleController;

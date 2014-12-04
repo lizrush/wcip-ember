@@ -1,3 +1,8 @@
+.map-canvas {
+  width: 600px;
+  height: 400px;
+}
+
 #tooltip {
     text-align: center;
     color: #f8f8f8;
