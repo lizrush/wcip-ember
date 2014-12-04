@@ -88,5 +88,15 @@ body {
   display: block;
 }
 
+.map-page {
+  height: 700px;
+}
 
+.map-canvas {
+  width: 600px;
+  height: 400px;
+}
 
+#address {
+  width: 80%;
+}
